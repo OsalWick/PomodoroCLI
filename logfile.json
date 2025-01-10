@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-01-10T16:52:34.569201",
+    "type": "Osal's Test Timer",
+    "duration": 1,
+    "completed": false,
+    "session_number": 1
+  },
+  {
+    "timestamp": "2025-01-10T17:08:09.376200",
+    "type": "osal",
+    "duration": 1,
+    "completed": false,
+    "session_number": 1
+  },
+  {
+    "timestamp": "2025-01-10T17:19:20.061063",
+    "type": "Osal Test 2",
+    "duration": 1,
+    "completed": false,
+    "session_number": 1
+  },
+  {
+    "timestamp": "2025-01-10T17:37:56.599573",
+    "type": "Osal",
+    "duration": 1,
+    "completed": false,
+    "session_number": 1
+  }
+]
