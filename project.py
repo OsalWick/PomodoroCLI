@@ -91,6 +91,12 @@ class PomodoroTimer:
         print(f"\r{session} - {status}: {Fore.WHITE}{minutes:02d}:{seconds:02d}{Style.RESET_ALL} {bar}", end="")
 
     def timer_start(self, duration_minutes: int, session_type: str) -> bool:
+        # The validation does not work because it doesnt taken into account invalid input in timer.start
+        # Validate duration - check later
+        if duration_minutes <= 0:
+            print(f"\n{Fore.RED}Timer duration must be positive!{Style.RESET_ALL}")
+            return False
+
         elapsed_time = 0
         click.clear()
         
