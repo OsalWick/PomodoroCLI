@@ -130,5 +130,3 @@ pytest test_project.py
 ## Contributing
 
 While this project was developed as part of CS50P coursework, suggestions and improvements are welcome. Please feel free to fork the repository and submit pull requests.
-
-
